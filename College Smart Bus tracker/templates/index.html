@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b33">
+  <title>MediRide — College Transport</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="loginScreen" class="login-shell">
+    <div class="login-art">
+      <div class="brand brand-light"><span class="brand-mark">M</span><span>mediride</span></div>
+      <div class="login-copy">
+        <span class="eyebrow">MEDI-CAPS UNIVERSITY</span>
+        <h1>Your campus commute,<br><em>in control.</em></h1>
+        <p>Live bus updates, smarter arrival estimates and a smoother ride to campus.</p>
+        <div class="art-route"><span></span><i></i><i></i><i></i><b>✦</b></div>
+      </div>
+      <div class="login-foot">SMART CAMPUS MOBILITY <span>•</span> INDORE</div>
+    </div>
+    <div class="login-panel">
+      <div class="login-form-wrap">
+        <div class="brand brand-dark"><span class="brand-mark">M</span><span>mediride</span></div>
+        <span class="eyebrow">WELCOME BACK</span>
+        <h2>Sign in to your<br>transport hub.</h2>
+        <p class="muted">Use your assigned Medi-Caps demo account.</p>
+        <form id="loginForm">
+          <label for="email">Email address</label>
+          <input id="email" type="email" autocomplete="username" placeholder="you@medicaps.edu" required>
+          <label for="password">Password</label>
+          <div class="password-wrap"><input id="password" type="password" autocomplete="current-password" placeholder="Enter your password" required><button type="button" class="eye" id="togglePassword" aria-label="Show password">◉</button></div>
+          <button class="btn btn-primary btn-wide" type="submit">Sign in <span>→</span></button>
+          <div id="loginError" class="error-text" role="alert"></div>
+        </form>
+        <details class="demo-details"><summary>View demo login credentials</summary>
+          <div class="demo-grid"><span>Student</span><code>student1@medicaps.edu / student123</code><span>Driver</span><code>driver1@medicaps.edu / driver123</code><span>Admin</span><code>admin@medicaps.edu / admin123</code><span>Maintenance</span><code>maint@medicaps.edu / maint123</code></div>
+        </details>
+      </div>
+      <div class="login-bottom">© 2026 MediRide · College Transport System</div>
+    </div>
+  </div>
+
+  <div id="appShell" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="brand brand-light"><span class="brand-mark">M</span><span>mediride</span></div>
+      <div class="side-label">WORKSPACE</div>
+      <nav id="sideNav" class="side-nav"></nav>
+      <div class="sidebar-bottom">
+        <div class="support-card"><div class="support-icon">✦</div><strong>Need a hand?</strong><p>Contact your transport administrator for help.</p></div>
+        <button class="profile-mini" id="logoutBtn"><span class="avatar" id="sideAvatar">U</span><span class="profile-text"><b id="sideName">User</b><small id="sideRole">Account</small></span><span class="logout-icon">↗</span></button>
+      </div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+        <div><div class="breadcrumb">MEDI-CAPS <span>/</span> <b id="crumbPage">Overview</b></div><div class="mobile-brand">mediride</div></div>
+        <div class="top-actions"><span class="live-pill"><i></i> SYSTEM LIVE</span><button class="icon-btn" id="refreshBtn" title="Refresh">↻</button><div class="top-avatar" id="topAvatar">U</div></div>
+      </header>
+      <div class="content">
+        <section class="welcome-row">
+          <div><span class="eyebrow" id="todayLabel">CAMPUS TRANSPORT</span><h1 id="pageTitle">Good day</h1><p id="pageSubtitle">Here’s what’s happening with your commute.</p></div>
+          <div class="welcome-date" id="dateLabel"></div>
+        </section>
+        <div id="toast" class="toast hidden"></div>
+        <section id="overviewPage" class="page active">
+          <div id="statsGrid" class="stats-grid"></div>
+          <div class="section-heading"><div><span class="eyebrow">LIVE OVERVIEW</span><h2>On the move</h2></div><span class="updated-label" id="lastUpdated">Updating…</span></div>
+          <div class="dashboard-grid">
+            <div class="panel map-panel"><div class="panel-head"><div><h3>Live bus map</h3><p>Track buses along their assigned routes</p></div><span class="map-legend"><i></i> Live location</span></div><div id="map"></div></div>
+            <div class="panel activity-panel"><div class="panel-head"><div><h3 id="activityTitle">Updates</h3><p>Latest transport activity</p></div></div><div id="activityList" class="activity-list"></div></div>
+          </div>
+          <div class="section-heading table-heading"><div><span class="eyebrow">FLEET</span><h2>Bus status</h2></div><button class="text-btn" data-page="buses">View all <span>→</span></button></div>
+          <div class="panel table-panel"><div class="table-wrap"><table><thead><tr><th>BUS</th><th>ROUTE</th><th>STATUS</th><th>DELAY</th><th>ARRIVAL</th></tr></thead><tbody id="busTable"></tbody></table></div></div>
+        </section>
+        <section id="routeFinderPage" class="page">
+          <div class="section-heading"><div><span class="eyebrow">STUDENT ROUTE PLANNER</span><h2>Find your bus & stop</h2></div><span class="updated-label">Indore + Dewas routes</span></div>
+          <div class="route-tools panel">
+            <div class="route-filter-row">
+              <div class="route-field"><label for="routeSearch">Search by route, bus or stop</label><input id="routeSearch" type="search" placeholder="e.g. Vijay Nagar, Bus 23, Rajwada"></div>
+              <div class="route-field"><label for="cityFilter">City</label><select id="cityFilter"><option value="All">All areas</option><option value="Indore">Indore</option><option value="Dewas">Dewas</option></select></div>
+            </div>
+            <div class="route-field"><label for="routeSelect">Selected route</label><select id="routeSelect"></select></div>
+            <div class="assigned-route-note" id="assignedRouteNote"></div>
+          </div>
+          <div class="section-heading route-results-heading"><div><span class="eyebrow">AVAILABLE BUSES</span><h2>Choose a bus to explore</h2></div><span class="updated-label">Select any bus to view its route</span></div>
+          <div id="routeBusCards" class="route-bus-cards"></div>
+          <div class="route-finder-grid">
+            <div class="panel route-stops-panel"><div class="panel-head"><div><h3>Stops & arrival times</h3><p>Scheduled first-shift times from the transport route sheet</p></div></div><div id="routeStopsList" class="route-stops-list"></div></div>
+            <div class="panel route-map-panel"><div class="panel-head"><div><h3>Road-following route</h3><p>Road path from OpenStreetMap routing</p></div><span class="map-legend"><i></i> Stops</span></div><div id="routeMap"></div><div id="routeMapStatus" class="route-map-status">Choose a route to load its road path. Map data requires an internet connection; no API key is needed.</div></div>
+          </div>
+        </section>
+        <section id="busesPage" class="page"><div class="section-heading"><div><span class="eyebrow">FLEET MANAGEMENT</span><h2>Your buses</h2></div><button class="btn btn-outline" id="busesRefresh">↻ Refresh</button></div><div id="busCards" class="bus-cards"></div></section>
+        <section id="notificationsPage" class="page"><div class="section-heading"><div><span class="eyebrow">STAY INFORMED</span><h2>Notifications</h2></div></div><div class="panel"><div id="notificationsList" class="notification-list"></div></div></section>
+        <section id="controlsPage" class="page"><div class="section-heading"><div><span class="eyebrow">DRIVER WORKSPACE</span><h2>Trip controls</h2></div></div><div id="driverControls" class="panel controls-panel"></div></section>
+        <section id="recordsPage" class="page"><div class="section-heading"><div><span class="eyebrow">OPERATIONS</span><h2>Records & maintenance</h2></div></div><div class="records-grid"><div class="panel"><h3>Fuel records</h3><div id="fuelRecords"></div><form id="fuelForm" class="inline-form"><input name="bus_id" type="number" placeholder="Bus ID" required><input name="litres" type="number" step="0.1" placeholder="Litres" required><input name="mileage" type="number" step="0.1" placeholder="Mileage" required><button class="btn btn-primary" type="submit">Add fuel</button></form></div><div class="panel"><h3>Maintenance records</h3><div id="maintenanceRecords"></div><form id="maintenanceForm" class="inline-form"><input name="bus_id" type="number" placeholder="Bus ID" required><input name="issue" placeholder="Issue" required><input name="status" placeholder="Status" value="open" required><button class="btn btn-primary" type="submit">Add record</button></form></div></div></section>
+        <section id="alertsPage" class="page"><div class="section-heading"><div><span class="eyebrow">ATTENTION REQUIRED</span><h2>Delay alerts</h2></div></div><div class="panel"><div id="alertsList" class="notification-list"></div></div></section>
+        <section id="boardingPage" class="page"><div class="section-heading"><div><span class="eyebrow">YOUR RIDE</span><h2>Boarding</h2></div></div><div class="panel boarding-panel"><div class="boarding-icon">↗</div><h3>Confirm your boarding</h3><p>Log your boarding when you get on your assigned bus.</p><form id="boardingForm"><label>Bus ID</label><input name="bus_id" type="number" placeholder="Enter bus ID" required><label>Boarding stop</label><input name="stop" placeholder="Enter your stop name" required><button class="btn btn-primary" type="submit">Confirm boarding</button></form></div></section>
+      </div>
+      <nav id="mobileNav" class="mobile-nav"></nav>
+    </main>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

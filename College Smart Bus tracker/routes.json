@@ -1,0 +1,1360 @@
+[
+  {
+    "bus_number": "23",
+    "city": "Dewas",
+    "name": "Bus 23 · Bajrangbali Nagar → Medi-Caps",
+    "origin": "Bajrangbali Nagar",
+    "stops": [
+      {
+        "name": "Bajrangbali Nagar",
+        "time": "06:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bhopal Square",
+        "time": "06:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Khichi Square",
+        "time": "06:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Gajra Gaer Square",
+        "time": "06:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vishal Mega Mart",
+        "time": "07:10",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Ram Nagar Square",
+        "time": "07:13",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Appex Hospital",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Kela Devi Mandir",
+        "time": "07:16",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vikas Nagar",
+        "time": "07:18",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Prestige College",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mangliya",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "30",
+    "city": "Dewas",
+    "name": "Bus 30 · Dewas → Medi-Caps",
+    "origin": "Dewas",
+    "stops": [
+      {
+        "name": "Bhopal Square",
+        "time": "06:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bus Stand",
+        "time": "06:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Saya Ji Dwar",
+        "time": "06:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Ram Nagar Square",
+        "time": "07:02",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Kshipra Bridge",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Omex City One",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Malwa College Bridge",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "42",
+    "city": "Dewas",
+    "name": "Bus 42 · Beema Hospital → Medi-Caps",
+    "origin": "Beema Hospital",
+    "stops": [
+      {
+        "name": "Beema Hospital",
+        "time": "06:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Civil Line",
+        "time": "06:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sampat Hills",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Silver Spring",
+        "time": "07:55",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "15",
+    "city": "Indore",
+    "name": "Bus 15 · Chandan Nagar → Medi-Caps",
+    "origin": "Chandan Nagar",
+    "stops": [
+      {
+        "name": "Sirpur Talab",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vatika Garden",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Foothi Kothi",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Hawa Bangla",
+        "time": "07:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "CAT",
+        "time": "07:53",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Treasure Fantasy",
+        "time": "07:55",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rangwasa Square",
+        "time": "07:58",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rau Bridge",
+        "time": "08:00",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "16",
+    "city": "Indore",
+    "name": "Bus 16 · MR-10 → Medi-Caps",
+    "origin": "MR-10",
+    "stops": [
+      {
+        "name": "MR-10",
+        "time": "07:10",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Heera Nagar",
+        "time": "07:12",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bapat Square",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sayaji Hotel",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Columbia Thana",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bicholi",
+        "time": "07:37",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "17",
+    "city": "Indore",
+    "name": "Bus 17 · Gandhi Nagar → Medi-Caps",
+    "origin": "Gandhi Nagar",
+    "stops": [
+      {
+        "name": "Gandhi Nagar",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Airodrum Thana",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vidhya Dham",
+        "time": "07:26",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Ramchandra Nagar",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "18",
+    "city": "Indore",
+    "name": "Bus 18 · Rani Sati Gate → Medi-Caps",
+    "origin": "Rani Sati Gate",
+    "stops": [
+      {
+        "name": "Jhabua Tower",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Tukoganj Thana",
+        "time": "07:17",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rani Sati Gate",
+        "time": "07:18",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rajkumar Bridge",
+        "time": "07:24",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Ram Bagh",
+        "time": "07:29",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Polo Ground",
+        "time": "07:31",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mari Mata",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Kila Maidan",
+        "time": "07:36",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "VIP Road Shiv Mandir",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Agrasen Nagar",
+        "time": "07:42",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Jaroliya Market",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Lucky Bakery",
+        "time": "07:51",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Gopur Square",
+        "time": "07:52",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Navneet Garden Road",
+        "time": "07:55",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "19",
+    "city": "Indore",
+    "name": "Bus 19 · Pipliyahana → Medi-Caps",
+    "origin": "Pipliyahana",
+    "stops": [
+      {
+        "name": "Pipliyahana",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Musakhedi",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "IT Park",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Queens College",
+        "time": "07:42",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Limbodi",
+        "time": "07:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Tejaji Nagar",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "20",
+    "city": "Indore",
+    "name": "Bus 20 · Gangwal Bus Stand → Medi-Caps",
+    "origin": "Gangwal Bus Stand",
+    "stops": [
+      {
+        "name": "Gangwal Bus Stand",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mog Line",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mhow Naka",
+        "time": "07:43",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mahesh Dairy",
+        "time": "07:44",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Dravid Nagar",
+        "time": "07:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Ranjeet Hanuman",
+        "time": "07:46",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Charu Medical",
+        "time": "07:47",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mahaveer Gate",
+        "time": "07:48",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Hum Tum Garden",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Narmada Square",
+        "time": "07:55",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Reti Mandi",
+        "time": "07:57",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "25",
+    "city": "Indore",
+    "name": "Bus 25 · Janjeerwala Square → Medi-Caps",
+    "origin": "Janjeerwala Square",
+    "stops": [
+      {
+        "name": "Janjeerwala Square",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Industry House",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Palasiya Thana",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Palasiya Petrol",
+        "time": "07:26",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Shivaji Vatika Square",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "GPO Square",
+        "time": "07:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Agrasen Square",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vikram Tower",
+        "time": "07:37",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sapna Sangeeta",
+        "time": "07:38",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Khatiawala Tank",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Telephone Exchange",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Shiv Mandir",
+        "time": "07:42",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "NDPS",
+        "time": "07:43",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Choithram Hospital",
+        "time": "07:44",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Maa Vihar",
+        "time": "07:47",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Awasa",
+        "time": "07:48",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bijalpur Square",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rajendra Nagar (Police)",
+        "time": "07:52",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Shramik Colony",
+        "time": "07:57",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "26",
+    "city": "Indore",
+    "name": "Bus 26 · Apple Hospital → Medi-Caps",
+    "origin": "Apple Hospital",
+    "stops": [
+      {
+        "name": "Transport Nagar",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Tower Square",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sindhi Colony",
+        "time": "07:24",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Palsikar",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Collectorate",
+        "time": "07:27",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Karbala",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Nai Duniya Press",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rajendra Nagar",
+        "time": "07:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Silicon City",
+        "time": "08:00",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "27",
+    "city": "Indore",
+    "name": "Bus 27 · Rajmohalla → Medi-Caps",
+    "origin": "Rajmohalla",
+    "stops": [
+      {
+        "name": "Bada Ganpati Square",
+        "time": "07:26",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Malhar Ganj",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Khajuri Bazar",
+        "time": "07:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Rajwada Square",
+        "time": "07:33",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Gurudwara Jawahar",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Pandharinath",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Reliance Fresh",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Six Banglow",
+        "time": "07:43",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Lokmanya Nagar",
+        "time": "07:47",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vinay Nagar",
+        "time": "07:50",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Chameli Devi Science College",
+        "time": "07:52",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "32",
+    "city": "Indore",
+    "name": "Bus 32 · Sangam Nagar → Medi-Caps",
+    "origin": "Sangam Nagar",
+    "stops": [
+      {
+        "name": "Bhandari Bridge",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "15 Batalian",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sangam Nagar",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Chanakya Puri",
+        "time": "07:45",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "33",
+    "city": "Indore",
+    "name": "Bus 33 · Om Gurudev → Medi-Caps",
+    "origin": "Om Gurudev",
+    "stops": [
+      {
+        "name": "Om Gurudev Complex",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Food Land",
+        "time": "07:16",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Golden Gate",
+        "time": "07:17",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mahalaxmi Nagar",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mela Ground",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "BCM Paradise",
+        "time": "07:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bypass",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "34",
+    "city": "Indore",
+    "name": "Bus 34 · Khalsa Square → Medi-Caps",
+    "origin": "Khalsa Square",
+    "stops": [
+      {
+        "name": "Dewas Naka",
+        "time": "07:05",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Khalsa Square",
+        "time": "07:10",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mahendra Showroom",
+        "time": "07:12",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Shalimar Township",
+        "time": "07:13",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Satya Sai",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vijay Nagar",
+        "time": "07:17",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Malviya Petrol Pump",
+        "time": "07:21",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Khajrana Square",
+        "time": "07:23",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "35",
+    "city": "Indore",
+    "name": "Bus 35 · Pardeshi Pura → Medi-Caps",
+    "origin": "Pardeshi Pura",
+    "stops": [
+      {
+        "name": "Pardeshi Pura",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Nanda Nagar",
+        "time": "07:17",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Patnipura",
+        "time": "07:18",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "MIG Thana",
+        "time": "07:19",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "LIG Square",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "MR-9 Lotus",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Robot Square",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Mayur Hospital",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "36",
+    "city": "Indore",
+    "name": "Bus 36 · Bombay Hospital → Medi-Caps",
+    "origin": "Bombay Hospital",
+    "stops": [
+      {
+        "name": "Bombay Hospital",
+        "time": "07:15",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Karnataka",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vaibhav Nagar",
+        "time": "07:23",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Manavta Nagar",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "37",
+    "city": "Indore",
+    "name": "Bus 37 · Anand Bazar → Medi-Caps",
+    "origin": "Anand Bazar",
+    "stops": [
+      {
+        "name": "Chandralok",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Anand Bazar",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Saket",
+        "time": "07:23",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Patrakar",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Sabji Mandi",
+        "time": "07:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Nakoda",
+        "time": "07:33",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "38",
+    "city": "Indore",
+    "name": "Bus 38 · Teen Imli → Medi-Caps",
+    "origin": "Teen Imli",
+    "stops": [
+      {
+        "name": "Teen Imli",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "SBI Bank",
+        "time": "07:32",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Navlakha",
+        "time": "07:33",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Bhawarkuwa",
+        "time": "07:37",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vishnupuri",
+        "time": "07:38",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Pani Ki Tanki",
+        "time": "07:40",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Choithram Square",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Fool Mandi",
+        "time": "07:42",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Gamlewali Puliya",
+        "time": "07:47",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "39",
+    "city": "Indore",
+    "name": "Bus 39 · Bangali Square → Medi-Caps",
+    "origin": "Bangali Square",
+    "stops": [
+      {
+        "name": "Bangali Square",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Agrawal Public School",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "K2 Dhaba",
+        "time": "07:27",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Kalindi Township",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "40",
+    "city": "Indore",
+    "name": "Bus 40 · Kalani Nagar → Medi-Caps",
+    "origin": "Kalani Nagar",
+    "stops": [
+      {
+        "name": "Kalani Nagar",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Shikshak Nagar",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Tirupati Nagar",
+        "time": "07:25",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Dashera Maidan",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Narendra Tiwari Marg",
+        "time": "07:36",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Monica Galaxy",
+        "time": "07:37",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Annapurna Temple",
+        "time": "07:38",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Golden School",
+        "time": "07:39",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Vaishali Nagar",
+        "time": "07:41",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Alpine Public School",
+        "time": "07:42",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  },
+  {
+    "bus_number": "41",
+    "city": "Indore",
+    "name": "Bus 41 · Geeta Bhawan → Medi-Caps",
+    "origin": "Geeta Bhawan",
+    "stops": [
+      {
+        "name": "Geeta Bhawan",
+        "time": "07:20",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "St. Paul",
+        "time": "07:22",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Kanadia Road",
+        "time": "07:30",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Columbia",
+        "time": "07:35",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Adarsh Shishu Vihar",
+        "time": "07:37",
+        "lat": null,
+        "lng": null
+      },
+      {
+        "name": "Medi-Caps University",
+        "time": "08:20",
+        "lat": null,
+        "lng": null
+      }
+    ]
+  }
+]
